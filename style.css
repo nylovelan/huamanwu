@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.clearfix:after{
+    display: block;
+    content: "";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+body{
+    background: #ffd8d9;
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+.container .float{
+    margin-top: 2px;
+    float: left;
+}
+.container .nav ul li a{
+    background: url("images/button1.jpg");
+    width: 100px;
+    line-height: 34px;
+    float: left;
+    color: #630002;
+    font-size: 12px;
+    text-align: center;
+}
+.container .login{
+    text-align: left;
+    background: #fff;
+    padding-bottom: 30px;
+    width: 180px;
+    border-radius: 10px;
+}
+.container .login form {
+    line-height: 20px;
+    padding: 0 26px;
+    font-size: 12px;
+}
+.container .login form label{
+    float: left;
+}
+.container .login form input{
+    width: 90px;
+    float: left;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.container .login form p{
+    margin-right: 3px;
+    background: #ffeff0;
+    border: 1px solid #000;
+    float: left;
+}
+.container .login form .wangji{
+    color: #333;
+    border: none;
+    background: none;
+}
+.container .login .box1{
+    margin-bottom: 20px;
+}
+.container .login h5 {
+    margin: 0 auto;
+    padding: 5px 0 0 5px;
+    background: #ffd1d1;
+    font-size: 12px;
+    width: 141px;
+    height: 15px;
+}
+.container .login .box1 ul li{
+    position: relative;
+    left: 2px;
+    margin: 0 22px;
+    font-size: 12px;
+    border-bottom: 1px dotted #999;
+}
+.container .login .box1 ul li a{
+    margin-bottom: 4px;
+    position: relative;
+    top: -2px;
+    color: #000;
+}
+.container .login .box1 ul li img{
+    position: relative;
+    top: 2px;
+    margin: 7px 6px ;
+}
+.container .new{
+    margin-left: 182px;
+    width: 518px;
+}
+.container .new ul li{
+    float: left;
+}
+.container .new .box2{
+    margin-top: -4px;
+    padding: 10px;
+    background: #fff;
+}
+.container .new .box2 a img{
+    margin: 10px;
+    width: 106px;
+}
+.container .new .box2 a .normal{
+    margin-right: 0px;
+    width: 106px;
+}
+.container .new .box2 a p{
+    position: relative;
+    top: -10px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+}
+.container .new .box2 a .price{
+    color: #000;
+}
+.container .new .box3{
+    margin: -4px 0 20px 0;
+    font-size: 12px;
+    color: #000;
+    padding: 10px;
+    background: #fff;
+}
+.container .new .box3 li{
+    margin-left: 25px;
+    line-height: 18px;
+    width: 210px;
+}
+.container .new .box3 li img{
+    float: left;
+    margin: 6px 3px;
+}
+.container .new .box3 li a{
+    font-size: 12px;
+    float: left;
+    color: #000;
+}
